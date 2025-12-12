@@ -1,3 +1,3 @@
 # infrastructure
 
-Инфраструктурные сервисы: обработка ввода, таймеры, хранение состояния.
+Infrastructure services: input handling, timers, state storage, etc.

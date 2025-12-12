@@ -1,3 +1,3 @@
 # tests
 
-Тесты для бизнес-логики, приложения и UI.
+Tests for business logic, application, and UI.

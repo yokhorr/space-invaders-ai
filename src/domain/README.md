@@ -1,3 +1,3 @@
 # domain
 
-Бизнес-логика и сущности игры Space Invaders.
+Business logic and entities for the Space Invaders game.

@@ -1,3 +1,3 @@
 # ui
 
-React-компоненты, стили, анимации.
+UI components, styles, animations, etc.

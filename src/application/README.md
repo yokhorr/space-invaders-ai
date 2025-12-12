@@ -1,3 +1,3 @@
 # application
 
-Use-case'ы и сценарии работы с бизнес-логикой.
+Use-cases and scenarios for working with the business logic.

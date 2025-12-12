@@ -1,58 +1,58 @@
 # Space Invaders (Clean Architecture)
 
-> ⚡️ Проект разрабатывается совместно с искусственным интеллектом (AI assistant).
+> ⚡️ This project is developed in collaboration with an AI assistant.
 
-## Лицензия
+## License
 
-Проект распространяется по лицензии MIT. См. файл LICENSE.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Быстрый старт
+## Quick Start
 
-1. Установите зависимости:
+1. Install dependencies:
    ```sh
    pnpm install
    ```
-2. Соберите проект:
+2. Build the project:
    ```sh
    npx tsc
    ```
-3. Запустите локальный сервер (например, live-server):
+3. Start a local server (e.g., live-server):
    ```sh
    npx live-server public --port=8082
    ```
-4. Откройте в браузере: [http://127.0.0.1:8082](http://127.0.0.1:8082)
+4. Open in your browser: [http://127.0.0.1:8082](http://127.0.0.1:8082)
 
-## Структура
+## Structure
 
-- Исходный код: `src/`
-- Сборка: `public/dist/`
-- Точка входа: `src/index.ts`
+- Source code: `src/`
+- Build output: `public/dist/`
+- Entry point: `src/index.ts`
 - UI: `src/ui/game.ts`
 
-## Тесты
+## Tests
 
-Запуск тестов:
+To run tests:
 
 ```
 pnpm test
 ```
 
-## Линтинг
+## Linting
 
 ```
 pnpm lint
 ```
 
-## Примечания
+## Notes
 
-- Для корректной работы убедитесь, что после изменений в TypeScript вы пересобираете проект (`npx tsc`).
-- Если порт занят, используйте другой через параметр `--port`.
+- After making changes in TypeScript, rebuild the project (`npx tsc`).
+- If the port is busy, use another one via the `--port` parameter.
 
-## Минимальная версия
+## Minimal Version
 
-- Простая игровая механика: игрок, враги, стрельба
-- Управление: стрелки и пробел
+- Basic game mechanics: player, enemies, shooting
+- Controls: arrow keys and spacebar
 
 ---
 
-Дальнейшие улучшения будут добавляться по мере развития проекта.
+Further improvements will be added as the project evolves.
